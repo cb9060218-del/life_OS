@@ -7,7 +7,7 @@ LifeOS is a private life-management progressive web app for routines, activities
 1. Install Node.js 20.19+ or 22.12+.
 2. Run `npm ci`.
 3. Copy `.env.example` to `.env` and set `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY`. These are public client credentials; never use a Supabase service-role key in browser configuration.
-4. Apply the SQL files under `supabase/migrations` to your Supabase project in numeric order. The combined SQL Editor script at `supabase/sql-editor/20261014_remaining_setup.sql` applies migrations 2–5 after migration 1.
+4. Apply the SQL files under `supabase/migrations` to your Supabase project in numeric order. The combined SQL Editor script at `supabase/sql-editor/20261014_remaining_setup.sql` applies migrations 2–6 after migration 1.
 5. Enable email/password sign-in in Supabase Auth.
 6. Run `npm run dev`.
 
