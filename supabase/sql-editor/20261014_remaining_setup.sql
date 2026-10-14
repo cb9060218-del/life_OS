@@ -700,7 +700,9 @@ revoke all on function public.uncomplete_routine_task(uuid,date) from public,ano
 grant execute on function public.uncomplete_routine_task(uuid,date) to authenticated;
 
 commit;
-\n\n
+
+
+
 
 -- Keep First Step XP aligned with currently completed routine tasks.
 begin;
